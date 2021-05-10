@@ -7,4 +7,4 @@ The HTTP proxy can essentially be described as a high-performance content filter
 ### Insight
 
 This is a simple program that implements a parallel HTTP proxy server that accepts a GET request and makes it on behalf of the client. The HTTP proxy returns the response if succeeded to the client and a 404 if there was an error. 
-The proxy also handles multiple clients in parallel. It handles GET requests in parallel.
+The proxy also handles multiple clients in parallel.
